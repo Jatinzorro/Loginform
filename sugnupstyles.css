@@ -1,0 +1,43 @@
+h1{                               /*Tag level secector*/
+    text-align: center;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.submit-btn{
+    background-color: orangered;
+    color: #fff;   /*font ccolour inside button*/
+    padding:2%;
+    font-size: 22px;
+    margin-top: 10px;
+    border: 0;
+    cursor: pointer;
+}
+
+input{
+    padding: 2%;
+}
+
+label{
+    font-size: 20px;
+    font-weight: bolder;
+    margin:10px 0;
+}
